@@ -32,8 +32,10 @@ adventurous = true ? console.log(`Adventures are great!`) : console.log(`How abo
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (adventurous === true !! luckyNumber === 2) {
+if (adventurous = true !! luckyNumber === 2) {
  console.log("Roll the dice!");
+}
+
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
