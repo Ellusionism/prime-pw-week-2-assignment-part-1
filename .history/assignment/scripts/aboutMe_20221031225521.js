@@ -30,7 +30,7 @@ let food = `chicken marsala`;
 let pets = 2;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 5;
+let friendsPets = 2;
 
 // 11 - Add two pets to your `pets` variable
 pets = (pets + 2);
@@ -73,13 +73,7 @@ if (allowedPets > pets) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 let mostPets = ``;
- if (pets >= friendsPets) {
-  mostPets = pets;
- } else {
-  mostPets = friendsPets;
- }
- 
- console.log(mostPets);
+if 
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
