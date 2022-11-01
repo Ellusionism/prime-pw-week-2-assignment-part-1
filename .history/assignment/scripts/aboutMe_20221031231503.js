@@ -48,7 +48,7 @@ if (adventurous) {
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (adventurous === true && luckyNumber === 2) {
+if (adventurous == true && luckyNumber == 2) {
  console.log(`Roll the dice!`);
 } else {
  console.log(`Not your lucky day.`);
