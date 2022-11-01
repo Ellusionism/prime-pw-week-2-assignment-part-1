@@ -50,7 +50,7 @@ if (adventurous) {
 // console log "Roll the dice!"
 if (adventurous === true && luckyNumber === 2) {
  console.log(`Roll the dice!`);
-}
+
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -101,4 +101,4 @@ switch (luckyNumber) {
 
 adventurous ? console.log(`Adventures are great!`) : console.log(`How about we stay home?`);
 
-(adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : ``;
+(adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : console.log(`Not your lucky day.`);

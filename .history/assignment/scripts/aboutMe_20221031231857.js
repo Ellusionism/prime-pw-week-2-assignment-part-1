@@ -101,4 +101,4 @@ switch (luckyNumber) {
 
 adventurous ? console.log(`Adventures are great!`) : console.log(`How about we stay home?`);
 
-(adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : ``;
+(adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : `console.log(`Not your lucky day.`)`;
