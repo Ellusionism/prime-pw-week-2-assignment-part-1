@@ -103,4 +103,4 @@ adventurous ? console.log(`Adventures are great!`) : console.log(`How about we s
 
 (adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : ``;
 
-console.log(`My favorite food is ${food}!`);
+console.log(`My favorite food is ${favoriteFood}`);

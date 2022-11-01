@@ -24,7 +24,7 @@ console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner!`);
 let adventurous = true;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-const food = `chicken marsala`;
+conast food = `chicken marsala`;
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 2;
@@ -94,7 +94,7 @@ switch (luckyNumber) {
  case 1: console.log(`First is the worst`); break;
  case 2: console.log(`Second is the best`); break;
  case 3: console.log(`Third is the one with the polka dot dress`); break
- default: console.log(`Luck is what happens when preparation meets opportunity`); break;
+ default: console.log(`Luck is what happens when preparation meet opportunity`); break;
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
@@ -102,5 +102,3 @@ switch (luckyNumber) {
 adventurous ? console.log(`Adventures are great!`) : console.log(`How about we stay home?`);
 
 (adventurous === true) && (luckyNumber === 2) ? console.log(`Roll the dice!`) : ``;
-
-console.log(`My favorite food is ${food}!`);
