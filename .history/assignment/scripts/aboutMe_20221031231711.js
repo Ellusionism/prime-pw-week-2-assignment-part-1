@@ -83,7 +83,6 @@ if (pets >= friendsPets) {
 } else {
  mostPets = friendsPets;
 }
-
 console.log(mostPets);
 
 // 17 - Write a *switch* statement that logs:
