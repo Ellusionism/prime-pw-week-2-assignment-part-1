@@ -27,7 +27,7 @@ let adventurous = false;
 let food = `chicken marsala`;
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 2;
+let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
@@ -42,7 +42,8 @@ let allowedPets = 4;
 // if it's not true, console log "How about we stay home?"
 if (adventurous) {
  console.log(`Adventures are great!`);
-} else {
+}
+else {
  console.log(`How about we stay home?`);
 }
 
@@ -52,18 +53,10 @@ if (adventurous) {
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
+
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if (allowedPets > pets) {
- console.log(`I can have more pets!`);
-} else if (allowedPets === pets) {
- console.log(`I have enough pets`);
-} else if (allowedPets < pets) {
- console.log(`Oh no, I have too many pets!`);
-} else {``
-}
-
 
 // STRETCH GOALS:
 
