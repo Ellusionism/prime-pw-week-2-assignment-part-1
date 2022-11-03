@@ -1,0 +1,1 @@
+console.log(adventurous=false || true)? (“Adventues are great!“): (“How about we stay home?“);

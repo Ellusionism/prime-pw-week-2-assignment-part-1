@@ -21,7 +21,7 @@ const luckyNumber = 2;
 console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner!`);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
+let adventurous = ``;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 const food = `chicken marsala`;
@@ -74,7 +74,7 @@ if (allowedPets > pets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
-let mostPets;
+let mostPets = ``;
 
 if (pets >= friendsPets) {
  mostPets = pets;
@@ -93,7 +93,7 @@ console.log(mostPets);
 switch (luckyNumber) {
  case 1: console.log(`First is the worst`); break;
  case 2: console.log(`Second is the best`); break;
- case 3: console.log(`Third is the one with the polka dot dress`); break;
+ case 3: console.log(`Third is the one with the polka dot dress`); break
  default: console.log(`Luck is what happens when preparation meets opportunity`); break;
 }
 
