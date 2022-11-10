@@ -63,6 +63,7 @@ if (allowedPets > pets) {
  console.log(`I have enough pets`);
 } else if (allowedPets < pets) {
  console.log(`Oh no, I have too many pets!`);
+} else {``
 }
 
 
@@ -90,14 +91,10 @@ console.log(mostPets);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 switch (luckyNumber) {
- case 1: console.log(`First is the worst`);
- break;
- case 2: console.log(`Second is the best`);
- break;
- case 3: console.log(`Third is the one with the polka dot dress`);
- break;
- default: console.log(`Luck is what happens when preparation meets opportunity`);
- break;
+ case 1: console.log(`First is the worst`); break;
+ case 2: console.log(`Second is the best`); break;
+ case 3: console.log(`Third is the one with the polka dot dress`); break;
+ default: console.log(`Luck is what happens when preparation meets opportunity`); break;
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
